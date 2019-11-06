@@ -150,7 +150,7 @@ typedef void(^STKFrameFilter)(UInt32 channelsPerFrame, UInt32 bytesPerFrame, UIn
 /// Gets the current item duration in seconds
 @property (readonly) double duration;
 /// Gets the current item progress in seconds
-@property (readonly) double progress;
+@property (readwrite) double progress;
 /// Gets or sets the playback rate (default is 1.0)
 @property(readwrite) float rate;
 // Gets or sets the playback overlap (default is 8.0)
